@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # pixel-art
 
 > one-liner description of the module
@@ -47,3 +48,7 @@ pixel-art was inspired by..
 
 MIT
 
+=======
+# Pixel-Art
+Pixel-Art
+>>>>>>> 78999c896fec52328918b2da56d434853d9c1e47
