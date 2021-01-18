@@ -1,0 +1,10 @@
+<svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="17" width="7" height="65" rx="1" fill="#FFAD93"/>
+<rect x="42" width="7" height="65" rx="1" fill="#FFAD93"/>
+<rect x="65" y="17" width="7" height="65" rx="1" transform="rotate(90 65 17)" fill="#FFAD93"/>
+<rect x="65" y="42" width="7" height="65" rx="1" transform="rotate(90 65 42)" fill="#FFAD93"/>
+<path d="M17 26H24" stroke="#DB7D5F" stroke-width="3"/>
+<path d="M42 26H49" stroke="#DB7D5F" stroke-width="3"/>
+<path d="M42 51H49" stroke="#DB7D5F" stroke-width="3"/>
+<path d="M17 51H24" stroke="#DB7D5F" stroke-width="3"/>
+</svg>

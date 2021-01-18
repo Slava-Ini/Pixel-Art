@@ -1,0 +1,13 @@
+body,
+html {
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(180deg, #A6E4FF 0%, #8AE1CC 100%) fixed;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    max-width: calc( 100vw - 1.5em );
+}
