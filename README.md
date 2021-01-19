@@ -70,14 +70,14 @@ Current project is made in a form of website. It has 5 main pages:
   - Displays user avatar, name, email. Name and avatar are customizable
   - Section My Posts displays all the user posts with basic unformation and delete option
   
-### Project statue
+### Project status
 
-Current state is raw release, it still contains some minor bugs, which can slightly effect user experience.
+Current status is raw release, it still contains some minor bugs, which can slightly effect user experience.
 Vast majority of bugs will be fixed in the future along with the new functionality to be added.
 
 ### Acknowledgments
 
-This project was inspired by the 3rd edition of "Eloquent JavaScript" book written by Marijn Haverbeke , 
+This project was inspired by the 3rd edition of "Eloquent JavaScript" book written by Marijn Haverbeke, 
 in particular by the Chapter 19 
 https://eloquentjavascript.net/19_paint.html 
 >Special thanks to author for the truly elouquent experience.
@@ -85,5 +85,3 @@ https://eloquentjavascript.net/19_paint.html
 ### License
 
 MIT
-
-=======
