@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-- Demo
+- [Demo](###Demo)
 - General info
 - Technologies
 - Scope of functionalities
