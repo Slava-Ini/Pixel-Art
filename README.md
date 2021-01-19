@@ -4,15 +4,15 @@
 
 ## Table of Contents
 
-- [Demo](###Demo)
-- [General info](###General-info)
+- [Demo](#demo)
+- [General info](#general-info)
 - Technologies[](###)
 - Scope of functionalities[](###)
 - Project status[](###)
 - Aknowledgements[](###)
 - License[](###)
 
-### Demo
+<a name="Demo">### Demo</a> 
 
 
 ### General Info
