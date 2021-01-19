@@ -4,13 +4,13 @@
 
 ## Table of Contents
 
-- [Demo](###Demo)
-- General info
-- Technologies
-- Scope of functionalities
-- Project status
-- Aknowledgements
-- License
+- [Demo](###demo)
+- [General info](###general-info)
+- Technologies[](###)
+- Scope of functionalities[](###)
+- Project status[](###)
+- Aknowledgements[](###)
+- License[](###)
 
 ### Demo
 
