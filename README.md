@@ -6,13 +6,13 @@
 
 - [Demo](#demo)
 - [General info](#general-info)
-- Technologies[](###)
-- Scope of functionalities[](###)
-- Project status[](###)
-- Aknowledgements[](###)
-- License[](###)
+- [Technologies](#technologies)
+- [Scope of functionalities](#scope-of-functionalities)
+- [Project status](#project-status)
+- [Aknowledgements](#aknowledgements)
+- [License](#license)
 
-<a name="Demo">### Demo</a> 
+### Demo
 
 
 ### General Info
@@ -22,7 +22,7 @@ Project made in form of web-site with simplistic user interface and offers funct
 creating 16x16 to 64x64 pixel images using drawing tools and controls, as well as sharing images
 via the project API and checking out other users' works.
 
-### Technologes
+### Technologies
 
 * React.js 16.14
 * React libraries: 
