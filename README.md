@@ -79,8 +79,8 @@ Vast majority of bugs will be fixed in the future along with the new functionali
 
 This project was inspired by the 3rd edition of "Eloquent JavaScript" book written by Marijn Haverbeke , 
 in particular by the Chapter 19 
->https://eloquentjavascript.net/19_paint.html 
-Special thanks to author for the truly elouquent experience.
+https://eloquentjavascript.net/19_paint.html 
+>Special thanks to author for the truly elouquent experience.
 
 ### License
 
