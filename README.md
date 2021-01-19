@@ -4,8 +4,8 @@
 
 ## Table of Contents
 
-- [Demo](###demo)
-- [General info](###general-info)
+- [Demo](###Demo)
+- [General info](###General-info)
 - Technologies[](###)
 - Scope of functionalities[](###)
 - Project status[](###)
