@@ -14,7 +14,7 @@
 
 ### Demo
 **Project is not yet compatible with mobile devices, make sure to use it on laptop/desktop widescreen.**
->[pixelartdraw.com](www.pixelartdraw.com)
+>[pixelartdraw.com](https://pixelartdraw.com)
 
 ### General Info
 
