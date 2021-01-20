@@ -11,33 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6564a702-b835-413c-ab53-8eb94cb6b825" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/vyach.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/utils/handleCallTool.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/utils/handleCallTool.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Authentication/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Authentication/Auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Gallery/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Gallery/Gallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Navigation/MenuBar/MenuBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Navigation/MenuBar/MenuBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Profile/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Profile/ProfileName/UserName.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Profile/ProfileName/UserName.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Profile/ProfileUserImages/UserImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Profile/ProfileUserImages/UserImages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Redactor/CanvasScale/CanvasScale.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Redactor/CanvasScale/CanvasScale.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Redactor/CanvasSize/CanvasSize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Redactor/CanvasSize/CanvasSize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Redactor/Controls/Controls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Redactor/Controls/Controls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Redactor/Controls/Palette/Palette.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Redactor/Controls/Palette/Palette.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Redactor/Redactor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Redactor/Redactor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Redactor/Tools/Tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Redactor/Tools/Tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Redactor/UploadToGallery/UploadToGallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Redactor/UploadToGallery/UploadToGallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/UI/Editor/ControlButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/UI/Editor/ControlButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/UI/Editor/ToolButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/UI/Editor/ToolButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/UI/Gallery/GalleryCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/UI/Gallery/GalleryCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/UI/General/ImageLabel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/UI/General/ImageLabel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/UI/General/UploadFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/UI/General/UploadFile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/UI/Tips/TipsButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/UI/Tips/TipsButton.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +89,7 @@
       <workItem from="1611128126849" duration="324000" />
       <workItem from="1611128460411" duration="9000" />
       <workItem from="1611128538702" duration="1185000" />
-      <workItem from="1611129773729" duration="338000" />
+      <workItem from="1611129773729" duration="1513000" />
     </task>
     <servers />
   </component>

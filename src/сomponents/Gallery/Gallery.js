@@ -115,6 +115,7 @@ const GalleryWrapper = styled(motion.div)`
   .Select__option {
     text-align: center;
     cursor: pointer;
+    font-size: 1.8vh; 
     
     &:hover {
       text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
