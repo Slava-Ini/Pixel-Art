@@ -18,7 +18,7 @@ const Modal = styled.div`
 
 const Button = styled.button`
     position: relative;
-    flex-basis: 20%;
+    flex-basis: 18%;
     border: none;
     background: none;
     box-sizing: border-box;
@@ -37,28 +37,34 @@ const Button = styled.button`
         }
     }
     
+    &:active {
+      img {
+          filter: none;
+        }
+    }
+    
     img {
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-      width: 70%;
-      height: 70%;
+      width: 60%;
+      height: auto;
      }
      
-     .upload {
+    .upload {
       visibility: hidden;
-        opacity: 0;
-        transition: visibility 0s, opacity 0.3s ease-in-out;
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        top: 85%;
-        left: 0;
-        right: 0;
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 12px;
-        color: #616060;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.3s ease-in-out;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 70%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.6vh;
+      color: #616060;
      }
     `
 

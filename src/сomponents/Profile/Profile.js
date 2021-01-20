@@ -12,7 +12,9 @@ import {motion} from 'framer-motion'
 
 const ProfileWrapper = styled(motion.div)`
   width: 50%;
-  min-height: 80%;
+  max-width: 60rem;
+  height: 80%;
+  max-height: 90rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -29,22 +31,22 @@ const UserWrapper = styled.div`
   align-items: center;
   height: 40%;
   width: 80%;
-  margin-top: 2%;
+  margin-top: 2vh;
   
   .avatar {
     position: relative;
     border-radius: 4px;
     width: 30%;
-    height: 65%;
+    height: auto;
     margin-bottom: 0.5em;
     margin-left: 2em;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     
     .defaultAvatar {
       border-radius: 4px;
       width: 100%;
       height: 100%;
       object-fit: cover;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     }
     
     .customAvatar {
@@ -82,7 +84,7 @@ const UserWrapper = styled.div`
   .email {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.4vw;
   }
 `
 
@@ -97,7 +99,7 @@ const PostsWrapper = styled.div`
     margin-bottom: 1em;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 1.8vw;
   }
 `
 

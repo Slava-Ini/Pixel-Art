@@ -13,9 +13,13 @@ const Button = styled.button`
      box-sizing: border-box;
      outline: none;
      margin-bottom: 10%;
+
+     img {
+      width: 65%;
+      height: auto;
+     }
      
      &:hover {
-     
         cursor: pointer;
         
         .toolName {
@@ -30,8 +34,6 @@ const Button = styled.button`
      
      img:not(.outline)  {
        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-       width: 73%;
-       height: 73%;
      }
      
      .toolName {
@@ -48,7 +50,7 @@ const Button = styled.button`
         font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 1.6vh;
         color: #616060;
         z-index: 20;
      }

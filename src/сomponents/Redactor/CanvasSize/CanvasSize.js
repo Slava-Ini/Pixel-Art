@@ -17,7 +17,7 @@ const Modal = styled.div`
     .modalWindow {
       background-color: #D0FFBF;
       position: absolute;
-      width: 35%;
+      width: 30%;
       height: 30%;
       left: 0; 
       right: 0;
@@ -35,10 +35,10 @@ const Modal = styled.div`
     
     .modalWarning {
       width: 70%;
-      height: 35%;
+      height: 15vh;
       text-align: center;
       font-weight: lighter;
-      font-size: 22px;
+      font-size: 3vh;
       margin-top: 10%;
     }
     
@@ -54,9 +54,10 @@ const Modal = styled.div`
     
     .modalButtons button {
       width: 40%;
+      max-width: 5.5vw;
       height: 50%;
       font-family: 'Roboto', sans-serif;
-      font-size: 20px;
+      font-size: 2.2vh;
       font-weight: 300;
       background: #81FFB3;
       box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
@@ -80,9 +81,7 @@ const Modal = styled.div`
       &:active {
         box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.25);
       }
-    }
-    
-    
+    } 
 `
 
 const CanvasSizeWrapper = styled.div`
@@ -99,7 +98,7 @@ const CanvasSizeWrapper = styled.div`
   
   >label {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1.6vh;
   }
   
   .sizeValuesWrapper {
@@ -116,7 +115,7 @@ const Button = styled.button`
   outline: none;
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
-  font-size: 18px;
+  font-size: 2vh;
   color: ${props => props.selectedValue ? '#FD0000' : 'black'};
   cursor: pointer;
   

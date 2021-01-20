@@ -17,7 +17,7 @@ const Navbar = styled.div`
   li {
     position: relative;
     font-family: 'Roboto', sans-serif;
-    font-size: 160%;
+    font-size: 1.8vw;
     font-weight: lighter;
     list-style: none;
   }

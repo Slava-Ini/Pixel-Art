@@ -16,7 +16,7 @@ const UserNameWrapper = styled.div`
     width: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.4vw;
     border: none;
     text-align: center;
     background: none;
@@ -31,11 +31,11 @@ const UserNameWrapper = styled.div`
   
   .edit {
     cursor: pointer;
-    z-index: 50;
-    top: 0.3em;
-    right: -1.2em;
+    z-index: 50;  
+    top: 0.5vh;
+    right: -2.5vh;
     position: absolute;
-    height: 1em;
+    height: 2vh;
   }
 `
 const UserName = (props) => {

@@ -1,6 +1,7 @@
 {
   "name": "pixel-art",
-  "version": "0.1.0",
+  "version": "0.3.0",
+  "public": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -8,7 +9,6 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.20.0",
     "eslint-plugin-react-hooks": "0.0.0-8e5adfbd7",
-    "firebase": "^7.24.0",
     "framer-motion": "^2.9.5",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
@@ -24,6 +24,8 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "styled-components": "^5.2.1",
+    "tools": "0.0.0",
+    "typeface-roboto": "^1.1.13",
     "use-force-update": "^1.0.7"
   },
   "scripts": {

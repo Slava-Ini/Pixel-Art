@@ -10,12 +10,14 @@ const AuthWrapper = styled(motion.div)`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
-  height: 40%;
+  width: 40vw;
+  max-width: 40rem;
+  height: 40vh;
+  min-height: 20rem;
+  margin-top: 5%;
   background: rgba(227, 245, 241, 0.85);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
-  margin-top: 10%;
   font-family: 'Roboto', sans-serif;
   
   form {
@@ -106,12 +108,13 @@ const AuthWrapper = styled(motion.div)`
   
   .errorEmail, .errorPassword {
     position: absolute;
+    height: 2vh;
     top: 90%;
     color: #B41616;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1.6vh;
   }
-  
+    
 `
 const Auth = (props) => {
 

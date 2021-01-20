@@ -9,8 +9,9 @@ import TipFour from '../../../images/tips/TipFour.png'
 import TipFive from '../../../images/tips/TipFive.png'
 
 const ButtonWrapper = styled.button`
-  position: relative;
-  flex-basis: 20%;
+  position: ${props => props.displayName ? 'relative' : 'default'};
+  height: 10%;
+  width: auto;
   border: none;
   background: none;
   box-sizing: border-box;
@@ -19,7 +20,6 @@ const ButtonWrapper = styled.button`
   margin-bottom: 10%;
 
   &:hover {
-
     cursor: pointer;
   
     .info {
@@ -28,16 +28,25 @@ const ButtonWrapper = styled.button`
     }
   
     img {
+      position: relative;
       filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
       transition: filter 0.2s linear;
      }
   }
+  
+  &:active {
+    img {
+      filter: none;
+    }
+  }
 
   img {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    width: 75%;
-    height: 75%;
+    width: ${props => props.displayName ? '60%' : '6vh'};
+    height: auto;
   }
+  
+  
 
   .info {
     visibility: hidden;
@@ -53,7 +62,7 @@ const ButtonWrapper = styled.button`
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.8vh;
     color: #616060;
   }
 `
@@ -89,7 +98,7 @@ const Modal = styled.div`
   
   .rec-carousel {
     width: 95%;
-    height: 90%;
+    height: 95%;
   }
   
   .rec-item-wrapper {
@@ -102,7 +111,7 @@ const Modal = styled.div`
     outline: none;
     background: none;
     box-shadow: none;
-    font-size: 30px;
+    font-size: 4vh;
     
     &:disabled {
       visibility: hidden;
@@ -160,8 +169,10 @@ const Modal = styled.div`
   }
   
   img {
-    width: auto;
-    height: 60%; 
+    min-width: 26vw;
+    width: 55%;
+    min-height: 16vh;
+    height: auto; 
     filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25));
   }
 `
@@ -177,9 +188,11 @@ const Tip = styled.div`
   .tipDescription {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 4vh;
     text-align: center;
     max-width: 80%;  
+    margin-top: 1em;
+    
     
     .tipTag {
       color: #931FCA;
@@ -238,7 +251,10 @@ const TipsButton = (props) => {
 
     return (
         <React.Fragment>
-            <ButtonWrapper onClick={() => setDisplayModal(!displayModal)}>
+            <ButtonWrapper
+                onClick={() => setDisplayModal(!displayModal)}
+                displayName={props.displayName}
+            >
                 <img src={Info} alt='info'/>
                 {props.displayName &&
                     <span className='info'>Info</span>

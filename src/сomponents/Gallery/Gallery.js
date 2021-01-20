@@ -22,7 +22,8 @@ const GalleryWrapper = styled(motion.div)`
     justify-content: center;
     align-items: center;
     width: auto;
-    min-width: 60%;
+    min-width: 50%;
+    max-width: 80rem;
     height: 4em;
     min-height: 4em;
     background: rgba(227, 245, 241, 0.85);
@@ -37,7 +38,7 @@ const GalleryWrapper = styled(motion.div)`
       font-weight: 300;
       box-sizing: border-box;
       padding: 0 4%;
-      font-size: 24px;
+      font-size: 1.6vw;
       width: 94%;
       height: 60%;
       border: none;
@@ -50,12 +51,12 @@ const GalleryWrapper = styled(motion.div)`
   .selectFilterContainer {
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: 50%;
     margin: 1em 0;
   }
   
   .selectorWrapper, .filterWrapper {
-    height: 3em;
+    height: 3vw;
     width: 45%;
     display: flex;
     flex-direction: row;
@@ -67,6 +68,7 @@ const GalleryWrapper = styled(motion.div)`
   } 
   
   .Select__control {
+    min-height: 0.5em;
     display: flex;
     justify-content: space-around;
     height: 100%;
@@ -94,6 +96,8 @@ const GalleryWrapper = styled(motion.div)`
   
   .Select__placeholder {
     color: #000000;
+    font-size: 1vw;
+    margin-left: 0.5em;
   }
   
   .Select__indicator {
@@ -134,7 +138,7 @@ const GalleryWrapper = styled(motion.div)`
     width: 40%;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1vw;
     cursor: pointer;
     
     &:hover {
@@ -166,10 +170,12 @@ const GalleryImages = styled.div`
   padding-bottom: 1em;
   width: 80%;
   display: grid;
-  grid-template-columns: repeat(4, 22%);
-  grid-template-rows: repeat(3, 12.8em);
-  grid-column-gap: 4%;
-  grid-row-gap: 1.5em;
+  grid-template-columns: repeat(4, 20vh);
+  grid-template-rows: repeat(3, 22vh);
+  grid-column-gap: 3.5vh;
+  grid-row-gap: 4vh;
+  justify-content: center;
+  align-items: center;
   overflow-clip: true;
 `
 

@@ -11,8 +11,9 @@ import {motion} from 'framer-motion'
 const RedactorWrapper = styled(motion.div)`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 85%;
+  height: 85%;
   
   >div {
     height: 100%;

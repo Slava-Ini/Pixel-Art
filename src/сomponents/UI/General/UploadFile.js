@@ -9,7 +9,7 @@ const baseButtonStyle = css`
   outline: none;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 2.2vh;
   font-weight: 300;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
@@ -59,14 +59,15 @@ const AvatarUpload = styled.div`
   align-items: center;
   
   .avatarLabel {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 90%;
-    height: auto;
+    height: 1.8vw;
     background: #FFFFFF;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
     cursor: pointer;
-    text-align: center;
     
     &:hover {
       box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
@@ -85,14 +86,14 @@ const AvatarUpload = styled.div`
   span {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.4vw;
   }
   
   .output {
     margin-top: 1em;
     color: #B41616; 
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.2vw;
     text-align: center;
     width: 200%;
     padding-bottom: 15px;
@@ -123,14 +124,14 @@ const GalleryUpload = styled.form`
     justify-content: space-evenly;
     align-items: center;
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 3vh;
     margin-top: 2%;
   }
   
   .imageInputs {
     position: relative;
-    height: 30%;
-    width: 80%;
+    height: 10vh;
+    width: 48vh;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -138,15 +139,16 @@ const GalleryUpload = styled.form`
     
     label {
       position: absolute;
-      top: 5px;
-      left: 5.2em;
+      top: 0;
+      width: 23vh;
+      text-align: center;
       font-weight: lighter;
-      font-size: 14px;
+      font-size: 1.4vh;
     }
     
     >input {
-      height: 40%;
-      width: 45%;
+      height: 5vh;
+      width: 22vh;
       background: #ffffff;
       border: none;
       outline: none;
@@ -154,17 +156,16 @@ const GalleryUpload = styled.form`
       border-radius: 2px;
       font-family: 'Roboto', sans-serif;
       font-weight: 300;
-      font-size: 24px;
+      font-size: 3vh;
       text-align: center;
     }
     
     .Select-container {
-       width: 45%;
-    
       .Select__control {
+        height: 5vh;
+        min-height: 1vh;
+        width: 22vh;
         display: flex;
-        justify-content: space-around;
-        height: 100%;
         border: none;
         background: #ffffff;
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
@@ -179,7 +180,7 @@ const GalleryUpload = styled.form`
         padding: 0;
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
-        font-size: 22px;
+        font-size: 3vh;
       }
   
       .Select__placeholder {

@@ -12,13 +12,18 @@ import {motion} from 'framer-motion'
 const HomeWrapper = styled(motion.div)`
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
-  font-size: 50px;
-  max-width: 50%;
-  min-height: 80%;
+  width: 50%;
+  max-width: 60rem;
+  height: 80%;
+  max-height: 90rem;
   overflow: auto;
   background: rgba(227, 245, 241, 0.85);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 
   >button {
     align-items: center;
@@ -29,7 +34,7 @@ const HomeWrapper = styled(motion.div)`
 
   h1 {
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 2vw;
     text-align: center;
     color: rgba(8, 116, 140, 1);
   }
@@ -40,9 +45,10 @@ const HomeWrapper = styled(motion.div)`
   
   p {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.8vw;
     font-weight: 300;
-    margin: 20px 70px 20px 70px;
+    max-width: 75%;
+    margin: 0 auto;
   }
   
   .homeLinks {
@@ -50,7 +56,7 @@ const HomeWrapper = styled(motion.div)`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 5rem;
+    height: 10%;
     
     a {
       height: 60%;
@@ -58,9 +64,9 @@ const HomeWrapper = styled(motion.div)`
   }
   
   .homeLinks a img {
-    width: 3rem;
-    height: 100%;
-    margin-right: 0.4rem;
+    width: auto;
+    height: 110%;
+    margin-right: 0.6rem;
     filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
   
     &:hover {
@@ -80,7 +86,9 @@ const HomeWrapper = styled(motion.div)`
     img {
       cursor: pointer;
       height: 80%;
-      margin-right: 0.4rem;
+      width: auto;
+      margin-top: 0.3rem;
+      margin-right: 0.6rem;
       filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
       
       &:hover {
@@ -102,13 +110,13 @@ const HomeWrapper = styled(motion.div)`
       background: #D0FFBF;
       border-radius: 8px;
       box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-      width: 140%;
-      height: 90%;
+      width: 160%;
+      height: 110%;
       font-family: 'Roboto', sans-serif;
       font-weight: 300;
-      font-size: 16px;
-      top: -90%;
-      left: -25%;
+      font-size: 2vh;
+      top: -120%;
+      left: -40%;
       text-align: center;
       padding-top: 5%;
     }
@@ -178,7 +186,9 @@ const Home = props => {
             <p>
                 Check out the user guide.
             </p>
-            <TipsButton displayName={false}/>
+            <TipsButton
+                displayName={false}
+            />
             <p>Have a great day!</p>
             <div className='homeLinks'>
                 <a href={socialLinks.github} rel="noopener noreferrer" target='_blank'>

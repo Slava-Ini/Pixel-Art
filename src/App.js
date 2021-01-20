@@ -53,9 +53,6 @@ function App(props) {
             <MenuBar/>
             <AnimatePresence exitBeforeEnter>
                 <Switch>
-                    <Route exact path='/'>
-                        <Home containerVariants={containerVariants}/>
-                    </Route>
                     <Route path='/redactor'>
                         <Redactor containerVariants={containerVariants}/>
                     </Route>
@@ -64,6 +61,9 @@ function App(props) {
                     </Route>
                     <Route path='/authentication'>
                         <Auth containerVariants={containerVariants}/>
+                    </Route>
+                    <Route exact path='/'>
+                        <Home containerVariants={containerVariants}/>
                     </Route>
                     <Redirect to={'/profile'}/>
                 </Switch>
@@ -76,9 +76,6 @@ function App(props) {
                 <MenuBar/>
                 <AnimatePresence exitBeforeEnter>
                     <Switch>
-                        <Route exact path='/'>
-                            <Home containerVariants={containerVariants}/>
-                        </Route>
                         <Route path='/redactor'>
                             <Redactor containerVariants={containerVariants}/>
                         </Route>
@@ -89,6 +86,9 @@ function App(props) {
                             <Profile containerVariants={containerVariants}/>
                         </Route>
                         <Route path='/logout' component={Logout}/>
+                        <Route exact path='/'>
+                            <Home containerVariants={containerVariants}/>
+                        </Route>
                         <Redirect to={'/profile'}/>
                     </Switch>
                 </AnimatePresence>

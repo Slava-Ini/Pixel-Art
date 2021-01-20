@@ -41,14 +41,21 @@ const IconWrapper = styled.div`
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  padding-top: 1vh;
+  height: 1vh;  
+
+  >div {
+    width: 0.8vw;
+    height: auto;
+  }
 `
 const BestLabel = styled.div`
   position: relative;
-  height: 100%; 
+  height: 95%; 
   
   .tooltip {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1.6vh;
     background: rgba(227, 245, 241, 1);
     opacity: 1 !important;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
@@ -60,11 +67,13 @@ const BestLabel = styled.div`
   }
 `
 const BestIcon = styled.div`
-  height: 100%;
+  height: 2%;
   width: auto;
-  padding-left: 8%;
+  padding-left: 0.5vh;
   
   img {
+    height: 100%;
+    width: auto;
     filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25))
   }
 `

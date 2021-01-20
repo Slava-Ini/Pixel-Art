@@ -89,23 +89,13 @@ const drawLine = (from, to, color, brightness, amount) => {
 }
 
 // Util function for lighten or darken the input color by amount
-const colorShade = (col, amt) => {
-    if (!col) return
-    col = col.replace(/^#/, '')
-    if (col.length === 3) col = col[0] + col[0] + col[1] + col[1] + col[2] + col[2]
-
-    let [r, g, b] = col.match(/.{2}/g)
-    ([r, g, b] = [parseInt(r, 16) + amt, parseInt(g, 16) + amt, parseInt(b, 16) + amt])
-
-    r = Math.max(Math.min(255, r), 0).toString(16)
-    g = Math.max(Math.min(255, g), 0).toString(16)
-    b = Math.max(Math.min(255, b), 0).toString(16)
-
-    const rr = (r.length < 2 ? '0' : '') + r
-    const gg = (g.length < 2 ? '0' : '') + g
-    const bb = (b.length < 2 ? '0' : '') + b
-
-    return `#${rr}${gg}${bb}`
+const colorShade = (color, amount) => {
+    if (!color) return
+    return '#' + color
+        .replace(/^#/, '')
+        .replace(/../g, color => ('0'+Math.min(255, Math.max(0, parseInt(color, 16) + amount))
+        .toString(16))
+        .substr(-2));
 }
 
 
@@ -220,12 +210,12 @@ function lineToolHandler(pos, newPos) {
 
 // Lighten tool
 function lightenToolHandler(pos, newPos) {
-    brightnessHandler(pos, newPos, 5)
+    brightnessHandler(pos, newPos, 2)
 }
 
 // Darken tool
 function darkenToolHandler(pos, newPos) {
-    brightnessHandler(pos, newPos, -5)
+    brightnessHandler(pos, newPos, -2)
 }
 
 export default handleCallTool

@@ -16,7 +16,7 @@ const CanvasScaleWrapper = styled.div`
   
   >label {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1.6vh;
   }
   
   .scaleWrapper {
@@ -25,12 +25,13 @@ const CanvasScaleWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   
   .scale {
     text-align: center;
     font-weight: lighter;
-    font-size: 38px;
+    font-size: 4.4vh;
   }
   
   .scaleTipWrapper {
@@ -42,7 +43,7 @@ const CanvasScaleWrapper = styled.div`
   .scaleTip {
     visibility: hidden;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.6vh;
     color: #B41616;
   }
   

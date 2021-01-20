@@ -6,50 +6,55 @@ import {save, undoPicture, clearCanvas, load} from '../../../redux/utils/control
 
 const Button = styled.button`
     position: relative;
-    flex-basis: 20%;
+    flex-basis: 15%;
     border: none;
     background: none;
     box-sizing: border-box;
     outline: none;
-    margin-bottom: 10%;
+    margin-bottom: 6%;
     
     &:hover {
+      cursor: pointer;
     
-        cursor: pointer;
-    
-        .controlName {
-          visibility: visible;
-          opacity: 1;
-        }
+      .controlName {
+        visibility: visible;
+        opacity: 1;
+      }
         
-        img {
-          filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+      img {
+        filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+      }
+    }
+    
+    &:active {
+      img {
+          filter: none;
         }
     }
     
     img {
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-      width: 73%;
-      height: 73%;
-     }
+      width: 60%;
+      height: auto;
+    }
      
-     .controlName {
-        visibility: hidden;
-        opacity: 0;
-        transition: visibility 0.3s, opacity 0.3s ease-in-out;
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        top: 85%;
-        left: 0;
-        right: 0;
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        color: #616060;
-     }
+    .controlName {
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0.3s, opacity 0.3s ease-in-out;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 85%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.6vh;
+      color: #616060;
+    }
 `
 
 const ControlButton = props => {
@@ -91,9 +96,7 @@ const ControlButton = props => {
             case 'Save Miniature':
                 return (
                     <span className='controlName'>
-                        <span
-                            style={{fontSize: 12 + 'px'}}
-                        >
+                        <span>
                             {name[0].toUpperCase() + name.slice(1)}
                         </span>
                     </span>

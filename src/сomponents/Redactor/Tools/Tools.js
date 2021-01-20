@@ -14,7 +14,7 @@ import {AnimateSharedLayout} from 'framer-motion'
 const ToolsPanel = styled.div`
     display: flex;
     flex-direction: column;
-    width: 8.5%;
+    width: 11vh;
     background: rgba(227, 245, 241, 0.85);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;

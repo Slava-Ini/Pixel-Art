@@ -18,35 +18,40 @@ const ColorPalette = styled.div`
   }
   
   .currentColor {
-    width: 6em;
-    height: 6em;
+    width: 12vh;
+    height: 12vh;
     border-radius: 50%;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     background-color: ${props => props.currentColor};
   }
   
   .palette {
-    width: 61%;
+    width: 45%;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(7, 2em);
-    grid-template-rows: repeat(3, 2em);
-    grid-column-gap: 1.2em;
-    grid-row-gap: 0.75em;
+    grid-template-columns: repeat(7, 4vh);
+    grid-template-rows: repeat(3, 4vh);
+    grid-column-gap: 2vh;
+    grid-row-gap: 1.2vh;
     margin: 0 0;
   }
   
   .colorInputWrapper {
-    width: 19%;
+    width: 20%;
     display: flex;
     justify-content: center;
   }
   
   .colorInputLabel {
-    width: 4em;
-    height: 4em;
+    width: 8vh;
+    height: 8vh;
     border-radius: 50%;
-    background: conic-gradient(from -88.36deg at 50% 50%, #CD05FF -20.63deg, #FF0000 20.63deg, #FF7A00 65.63deg, #DDFF0D 133.12deg, #00FF29 189.38deg, #00E0FF 245.62deg, #5783FF 290.63deg, #CD05FF 339.37deg, #FF0000 380.62deg);
+    background: conic-gradient(
+      from -88.36deg at 50% 50%, #CD05FF -20.63deg,
+      #FF0000 20.63deg, #FF7A00 65.63deg, #DDFF0D 133.12deg,
+      #00FF29 189.38deg, #00E0FF 245.62deg, #5783FF 290.63deg,
+      #CD05FF 339.37deg, #FF0000 380.62deg
+    );
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   }
   
