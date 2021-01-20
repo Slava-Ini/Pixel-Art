@@ -13,7 +13,8 @@
 - [License](#license)
 
 ### Demo
-
+**Project is not yet compatible with mobile devices, make sure to use it on laptop/desktop widescreen.**
+>[pixelartdraw.com](https://pixel-art-f969a.web.app/)
 
 ### General Info
 
