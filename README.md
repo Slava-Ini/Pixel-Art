@@ -14,7 +14,7 @@
 
 ### Demo
 **Project is not yet compatible with mobile devices, make sure to use it on laptop/desktop widescreen.**
->[pixelartdraw.com](https://pixel-art-f969a.web.app/)
+>[pixelartdraw.com](pixelartdraw.com)
 
 ### General Info
 
@@ -76,7 +76,7 @@ Current project is made in a form of website. It has 5 main pages:
 Current status is raw release, it still contains some minor bugs, which can slightly effect user experience.
 Vast majority of bugs will be fixed in the future along with the new functionality to be added.
 
-### Acknowledgments
+### Aknowledgements
 
 This project was inspired by the 3rd edition of "Eloquent JavaScript" book written by Marijn Haverbeke, 
 in particular by the Chapter 19 
